@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Droplet, Leaf, Zap } from "lucide-react";
 import NewsletterForm from "@/components/NewsletterForm";
+import WaterWaves from "@/components/WaterWaves";
 
 /**
  * Design Philosophy: Minimalist Luxury - "Liquid Obsidian"
@@ -39,7 +40,9 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 overflow-hidden">
-        <div className="container grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        {/* Water waves background animation */}
+        <WaterWaves />
+        <div className="container grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
           {/* Left Content */}
           <div className="space-y-8 fade-in">
             <div className="space-y-4">
