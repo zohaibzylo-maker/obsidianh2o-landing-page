@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Droplet, Leaf, Zap } from "lucide-react";
+import NewsletterForm from "@/components/NewsletterForm";
 
 /**
  * Design Philosophy: Minimalist Luxury - "Liquid Obsidian"
@@ -7,6 +8,7 @@ import { Droplet, Leaf, Zap } from "lucide-react";
  * - Silver liquid metal aesthetic
  * - Playfair Display headings + Lato body text
  * - Subtle blue accents and smooth animations
+ * - Newsletter form with email validation and success feedback
  */
 
 export default function Home() {
@@ -262,20 +264,30 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              size="lg"
-              className="bg-accent hover:bg-accent/90 text-background font-semibold"
-            >
-              Shop Now
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-accent text-accent hover:bg-accent/10"
-            >
-              Subscribe
-            </Button>
+          <div className="space-y-6">
+            {/* Newsletter Form */}
+            <div className="bg-card/50 border border-border/50 rounded-lg p-8 backdrop-blur-sm">
+              <h3 className="text-xl font-semibold mb-4">Stay Updated</h3>
+              <p className="text-foreground/60 mb-6">Get exclusive offers and purity insights delivered to your inbox</p>
+              <NewsletterForm />
+            </div>
+
+            {/* Action Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button
+                size="lg"
+                className="bg-accent hover:bg-accent/90 text-background font-semibold"
+              >
+                Shop Now
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-accent text-accent hover:bg-accent/10"
+              >
+                Learn More
+              </Button>
+            </div>
           </div>
         </div>
       </section>
