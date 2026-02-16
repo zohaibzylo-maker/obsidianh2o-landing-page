@@ -89,7 +89,7 @@ export default function Home() {
             <img
               src="https://private-us-east-1.manuscdn.com/sessionFile/JroDEKCwN4fUCsdBILlvHX/sandbox/KkbsKeMh5mXdBn03zIMPxh-img-1_1770821208000_na1fn_aGVyby1ib3R0bGU.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvSnJvREVLQ3dONGZVQ3NkQklMbHZIWC9zYW5kYm94L0trYnNLZU1oNW1YZEJuMDN6SU1QeGgtaW1nLTFfMTc3MDgyMTIwODAwMF9uYTFmbl9hR1Z5YnkxaWIzUjBiR1UucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=S2B3lb-clEac5vFIf~pRcgUYgcsL2TF-dQsKg7l4xbFKouWOo9FoLjf-QlgH~qWPVU-qiibAf4Kxp5o1RHOR7bJAlrZ-4VuE6caA3BvP1ddpXs1Lkvzq~030xwFOWvYjHnOUAFY21ckHxpIXw4Vm~2v600pSIUbsiS8BSFQbQR3DCWxcODeESN1LDqvN-Nt~jYgbIMfuaG6PDZt5ZlY9aTTcMAXH-2PRHUtlJryAOLoxBZKcXlAA1KWR4Cprdi-BbgGjTa84tpkq8tUaGe2KhrTss5keYNZF4iRlXZHmCpQSXvpYbxnlN1uGFgZeykk-OqT5dhOSUkIdrIJkiiseiQ__"
               alt="obsidianH2O Premium Bottle"
-              className="w-full h-full object-contain drop-shadow-2xl"
+              className="w-full h-full object-contain drop-shadow-2xl animate-float"
             />
           </div>
         </div>
@@ -104,7 +104,7 @@ export default function Home() {
               <img
                 src="https://private-us-east-1.manuscdn.com/sessionFile/JroDEKCwN4fUCsdBILlvHX/sandbox/KkbsKeMh5mXdBn03zIMPxh-img-2_1770821211000_na1fn_aGVyby13YXRlci1mbG93.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvSnJvREVLQ3dONGZVQ3NkQklMbHZIWC9zYW5kYm94L0trYnNLZU1oNW1YZEJuMDN6SU1QeGgtaW1nLTJfMTc3MDgyMTIxMTAwMF9uYTFmbl9hR1Z5YnkxM1lYUmxjaTFtYkc5My5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=lOHKixYqdbLVwrqcE7ysBC6xjSaXaOS-lGvugsDULmtFDtRTcuv72ZwhiREzFPfc~Oo3EcH4dy7utUbdAN39uRRSuj860V4AMwEO8m9qZ4EYNXH-vdhm-NT8pAGADRYk-R1RbjxFbun~O-ffZYEL9kv2FE0L7STNG4X80ektpdopOisonSbMveVGzqQeYBVcBCXRm~AIDsbglTaQUsU4Bb3LbRN2ByAN78rtmoDRQAC1un50OOrMb3d8tWaG2PwlcnU7AnxkEMA-lRTbO6dTmHFO0iQ5nQmp-Q~aoJzMbBiUAuFXfGQmjKFT6784~m~jdjbnK5ml-1xiiHqmNxY5TA__"
                 alt="Water Flow Purity"
-                className="w-full h-full object-contain drop-shadow-2xl"
+                className="w-full h-full object-contain drop-shadow-2xl animate-float-slow"
               />
             </div>
 
@@ -198,7 +198,7 @@ export default function Home() {
             <img
               src="https://private-us-east-1.manuscdn.com/sessionFile/JroDEKCwN4fUCsdBILlvHX/sandbox/KkbsKeMh5mXdBn03zIMPxh-img-3_1770821206000_na1fn_bWluZXJhbC1jb21wb3NpdGlvbg.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvSnJvREVLQ3dONGZVQ3NkQklMbHZIWC9zYW5kYm94L0trYnNLZU1oNW1YZEJuMDN6SU1QeGgtaW1nLTNfMTc3MDgyMTIwNjAwMF9uYTFmbl9iV2x1WlhKaGJDMWpiMjF3YjNOcGRHbHZiZy5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=BJy6kldCBLgFidz1t4Ws6yC-v74oDVTlkfQdltrzYAav49TxDKPdUS55qRAPEF9RwRq0m-KZq3-VTFaRgaRxX1DhmR1F8SpcHjkj80x-0piwq4NfSRKR2AswK4OCQm4Y7-nepMZot1LG6Dgbs5VRC~UQW8qEcwCxRmvRDOZl-AU0DcApPaGAlcRO7TtcGOZObdiWizOeT31gteCBwOJZkU0Qbc0Si27XXfJqZgySiLTW-rxOjNSbL51Gwx-WUSCI9prJR6lXxfUGMWX5WzxHM-xO09Icxy1n9aZy799nv8fNH8TKcWELhdwuAhAEHtnve8l659KkmA-v7FtCsE7l1g__"
               alt="Mineral Composition"
-              className="w-full max-w-2xl h-auto drop-shadow-2xl"
+              className="w-full max-w-2xl h-auto drop-shadow-2xl animate-scale-in"
             />
           </div>
         </div>
@@ -247,7 +247,7 @@ export default function Home() {
               <img
                 src="https://private-us-east-1.manuscdn.com/sessionFile/JroDEKCwN4fUCsdBILlvHX/sandbox/KkbsKeMh5mXdBn03zIMPxh-img-5_1770821208000_na1fn_c3VzdGFpbmFiaWxpdHktZWFydGg.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvSnJvREVLQ3dONGZVQ3NkQklMbHZIWC9zYW5kYm94L0trYnNLZU1oNW1YZEJuMDN6SU1QeGgtaW1nLTVfMTc3MDgyMTIwODAwMF9uYTFmbl9jM1Z6ZEdGcGJtRmlhV3hwZEhrdFpXRnlkR2cucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=kP3ZzfivZmLoynrft1WpeJnWeDg-YESjI79WVHJQXZjOIEQqpB3GI4innAFNgAhEJGjN-Ewifut-hikNlRsA5zfyMtSBWrKcHpX8x5R2qgxeGm3WP9fJQ1suHWZp5rDwZIyWlgp6CCtmDleB1UvcKbETTq9kgt0BgAs0e8NkaE2gyEWDQRRIBOdLi3VFoelIJn0QNz1NYyDd5t1wvAGCytRWfuMhlfSuwNXCbQP4Y4XYubrZXe7AqWOIhMBdVbLSAzyFUKEEL~xyoguGh1T2a660ZGt5LX7DMDKseMJaVi~KBF2DZKx~TjLbFH7QUXpU6qfOROKHELEu5bVZ-8ehHg__"
                 alt="Sustainability"
-                className="w-full h-full object-contain drop-shadow-2xl"
+                className="w-full h-full object-contain drop-shadow-2xl animate-float"
               />
             </div>
           </div>
@@ -272,22 +272,7 @@ export default function Home() {
               <NewsletterForm />
             </div>
 
-            {/* Action Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button
-                size="lg"
-                className="bg-accent hover:bg-accent/90 text-background font-semibold"
-              >
-                Shop Now
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-accent text-accent hover:bg-accent/10"
-              >
-                Learn More
-              </Button>
-            </div>
+
           </div>
         </div>
       </section>
