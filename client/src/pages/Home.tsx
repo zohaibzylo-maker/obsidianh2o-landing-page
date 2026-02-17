@@ -92,7 +92,10 @@ export default function Home() {
             <img
               src="https://private-us-east-1.manuscdn.com/sessionFile/JroDEKCwN4fUCsdBILlvHX/sandbox/KkbsKeMh5mXdBn03zIMPxh-img-1_1770821208000_na1fn_aGVyby1ib3R0bGU.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvSnJvREVLQ3dONGZVQ3NkQklMbHZIWC9zYW5kYm94L0trYnNLZU1oNW1YZEJuMDN6SU1QeGgtaW1nLTFfMTc3MDgyMTIwODAwMF9uYTFmbl9hR1Z5YnkxaWIzUjBiR1UucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=S2B3lb-clEac5vFIf~pRcgUYgcsL2TF-dQsKg7l4xbFKouWOo9FoLjf-QlgH~qWPVU-qiibAf4Kxp5o1RHOR7bJAlrZ-4VuE6caA3BvP1ddpXs1Lkvzq~030xwFOWvYjHnOUAFY21ckHxpIXw4Vm~2v600pSIUbsiS8BSFQbQR3DCWxcODeESN1LDqvN-Nt~jYgbIMfuaG6PDZt5ZlY9aTTcMAXH-2PRHUtlJryAOLoxBZKcXlAA1KWR4Cprdi-BbgGjTa84tpkq8tUaGe2KhrTss5keYNZF4iRlXZHmCpQSXvpYbxnlN1uGFgZeykk-OqT5dhOSUkIdrIJkiiseiQ__"
               alt="obsidianH2O Premium Bottle"
-              className="w-full h-full object-contain drop-shadow-2xl animate-float"
+              className="w-full h-full object-contain drop-shadow-2xl animate-float mix-blend-screen"
+              style={{
+                filter: "brightness(1.1) contrast(1.05)",
+              }}
             />
           </div>
         </div>

@@ -1,12 +1,36 @@
 /**
- * WaterWaves Component
- * Animated SVG water waves background for hero section
- * Features smooth flowing water animation with gradient effects
+ * WaterWaves Component with Parallax Effect
+ * Animated SVG water waves background with scroll-based parallax
+ * Creates depth illusion as user scrolls
  */
 
+import { useEffect, useRef, useState } from "react";
+
 export default function WaterWaves() {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  // Calculate parallax offset - moves slower than scroll for depth effect
+  const parallaxOffset = scrollY * 0.5;
+
   return (
-    <div className="absolute inset-0 opacity-30 overflow-hidden">
+    <div
+      ref={containerRef}
+      className="absolute inset-0 opacity-40 overflow-hidden"
+      style={{
+        transform: `translateY(${parallaxOffset}px)`,
+        transition: "transform 0.1s ease-out",
+      }}
+    >
       <svg
         viewBox="0 0 1200 400"
         preserveAspectRatio="none"
@@ -16,8 +40,8 @@ export default function WaterWaves() {
         <defs>
           {/* Gradient for water waves */}
           <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stopColor="oklch(0.75 0.05 264)" stopOpacity="0.6" />
-            <stop offset="100%" stopColor="oklch(0.42 0.15 264)" stopOpacity="0.3" />
+            <stop offset="0%" stopColor="oklch(0.75 0.05 264)" stopOpacity="0.8" />
+            <stop offset="100%" stopColor="oklch(0.42 0.15 264)" stopOpacity="0.4" />
           </linearGradient>
 
           {/* Animation for wave 1 */}
@@ -53,17 +77,30 @@ export default function WaterWaves() {
 
             .wave-path-2 {
               animation: wave2 10s ease-in-out infinite;
-              fill: oklch(0.65 0.08 264 / 0.4);
+              fill: oklch(0.65 0.08 264 / 0.5);
             }
 
             .wave-path-3 {
               animation: wave3 12s ease-in-out infinite;
-              fill: oklch(0.55 0.1 264 / 0.2);
+              fill: oklch(0.55 0.1 264 / 0.25);
+            }
+
+            @keyframes shimmerWave {
+              0%, 100% {
+                opacity: 0.05;
+              }
+              50% {
+                opacity: 0.15;
+              }
+            }
+
+            .shimmer-circle {
+              animation: shimmerWave 4s ease-in-out infinite;
             }
           `}</style>
         </defs>
 
-        {/* Wave layers */}
+        {/* Wave layers with staggered animations */}
         <path
           className="wave-path-1"
           d="M0,100 Q300,50 600,100 T1200,100 L1200,400 L0,400 Z"
@@ -77,25 +114,32 @@ export default function WaterWaves() {
           d="M0,200 Q300,150 600,200 T1200,200 L1200,400 L0,400 Z"
         />
 
-        {/* Shimmer effect overlay */}
+        {/* Shimmer effect overlays for light refraction */}
         <circle
+          className="shimmer-circle"
           cx="300"
           cy="80"
           r="30"
           fill="white"
-          opacity="0.1"
-          style={{
-            animation: "shimmer 4s ease-in-out infinite",
-          }}
         />
         <circle
+          className="shimmer-circle"
           cx="900"
           cy="120"
           r="25"
           fill="white"
-          opacity="0.08"
           style={{
-            animation: "shimmer 5s ease-in-out infinite 1s",
+            animationDelay: "1s",
+          }}
+        />
+        <circle
+          className="shimmer-circle"
+          cx="600"
+          cy="150"
+          r="20"
+          fill="white"
+          style={{
+            animationDelay: "2s",
           }}
         />
       </svg>
